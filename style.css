@@ -496,6 +496,20 @@ a {
 
     .header {
     position: relative;
+     gap: 12px;
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.account-btn {
+    display: none;
+}
+
+.cart-btn {
+    white-space: nowrap;
+    padding: 0 14px;
 }
 
 .menu-btn {
