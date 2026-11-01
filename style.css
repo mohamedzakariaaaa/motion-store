@@ -485,14 +485,40 @@ a {
     color: #8A8883;
 }
 
+.menu-btn {
+    display: none;
+}
+
 
 
 
 @media (max-width: 900px) {
 
-    .nav {
-        display: none;
-    }
+    .header {
+    position: relative;
+}
+
+.menu-btn {
+    display: flex;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    background: #0E0E0E;
+    border-bottom: 1px solid #262626;
+    font-size: 18px;
+}
+
+.nav.open {
+    display: flex;
+}
 
     .hero {
         flex-direction: column;
